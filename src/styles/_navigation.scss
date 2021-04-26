@@ -1,0 +1,33 @@
+.bar{
+    background: {
+        color: $bg-color-one;
+    }
+    @include flex(space-between,center);
+    padding: {
+        left: 30px;
+        right: 30px;
+    }
+
+    &__home{
+        @include flex(space-between,center);
+
+        &-title{
+            font-family: 'Sahitya', serif;
+            color:$txt-color-one;
+        }
+        &-links{
+            width: 280px;
+            @include flex(space-around,center);
+            &-a{
+                font-size: larger;
+                font-family: 'Roboto', sans-serif;
+                color: $txt-color-one;
+                text-decoration: none;
+            }
+            &-a:hover{
+                text-decoration: underline;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+.search{
+    width: 100%;
+    height: 200px;
+    @include flex(center,center);
+
+    &__label{
+        @include flex(center,center);
+        background : {
+            color:rgb(207, 207, 207);
+        }
+        padding: 8px;
+        border-radius: 20px;
+    &-bar{
+        margin: 0 10px 0 0;
+        // color:$txt-color-one;
+        font-size: larger;
+        font-family: 'Roboto', sans-serif;
+        background : {
+            color:rgb(207, 207, 207);
+        }
+        border: none;
+        width: 600px;
+        height: 40px;
+        }
+    }
+
+}
