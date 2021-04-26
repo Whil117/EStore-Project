@@ -1,0 +1,7 @@
+.gallery{
+    @include flex(center,center);
+    flex-wrap: wrap;
+    &__img{
+        margin:   80px;
+    }
+}

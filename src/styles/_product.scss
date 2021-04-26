@@ -1,0 +1,16 @@
+.product{
+    @include flex(center,center);
+    flex-direction: column;
+    &__title{
+        font-size: xx-large;
+        font-family: 'Roboto', sans-serif;
+        color: $txt-color-two;
+    }
+    &__feature{
+        @include flex(center,center);
+        flex-wrap: wrap;
+        &-img{
+            margin: 80px;
+        }
+    }
+}

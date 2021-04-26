@@ -1,0 +1,39 @@
+.pay{
+
+    &__title{
+        @include flex(center,center);
+        &-methods{
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: $txt-color-two;
+        }
+    }
+    &__card{
+        @include flex(center,center);
+        flex-wrap: wrap;
+        &-item{
+            box-shadow: 6px 8px #888888;
+            margin: 20px 30px;
+            @include flex(center,center);
+        flex-direction: column;
+        width: 450px;
+        height: 282px;
+        background: {
+            color: $bg-color-two;
+        }
+        border-radius: 20px;
+        &-title{
+            color: $txt-color-two;
+            font-size: larger;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+        &-desc{
+            
+            font-family: 'Roboto', sans-serif;
+            font-size: large;
+        }
+        }
+    }
+}

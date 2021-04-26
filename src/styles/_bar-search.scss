@@ -4,6 +4,7 @@
     @include flex(center,center);
 
     &__label{
+        box-shadow: 6px 8px #888888;
         @include flex(center,center);
         background : {
             color:rgb(207, 207, 207);
